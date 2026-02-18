@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
@@ -22,13 +22,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Bio:</ThemedText>
         <ThemedText>
-          Hello, my name is Nathan Cox. I'm from Cleveland, Ohio and I am a student at Case Western Reserve University.
-          I am currently pursuing a bachelor of science degree in computer science and business management
-          with minors in math, economics, and artificial intelligence. I am also pursuing a master's degree in
-          computer science with a focus on artificial intelligence as a part of CWRU's integrated bachelor's and
-          master's program. I am passionate about using business and technology for social good and world benefit.
-          Some of my acedmic interests include research on how AI models can be used to model molecular and organic
-          structures to accelerate drug discovery and other scientific research. As far as personal interests, 
+          Hello, my name is Nathan Cox. I'm from Cleveland, Ohio. As far as personal interests, 
           I like to have very diversified hobbies. I enjoy walking around Cleveland and hiking anywhere I can.
           I like to play all kinds of video games, watch every movie ever made, listen to music everywhere I go,
           draw a little, and read the occasional fantasy or sci-fi book. Although, I always prefer to do things with friends
@@ -39,16 +33,13 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Education Summary:</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
+          I am a student at Case Western Reserve University.
+          I am currently pursuing a bachelor of science degree in computer science and business management
+          with minors in math, economics, and artificial intelligence. I am also pursuing a master's degree in
+          computer science with a focus on artificial intelligence as a part of CWRU's integrated bachelor's and
+          master's program. I am passionate about using business and technology for social good and world benefit.
+          Some of my acedmic interests include research on how AI models can be used to model molecular and organic
+          structures to accelerate drug discovery and other scientific research.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
