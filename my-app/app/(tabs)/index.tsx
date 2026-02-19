@@ -4,16 +4,15 @@ import { StyleSheet } from 'react-native';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { Link } from 'expo-router';
 
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#a02659', dark: '#4712a8' }}
       headerImage={
         <Image
           source={require('@/assets/images/purple-banner.png')}
-          style={styles.reactLogo}
+          style={styles.banner}
         />
       }>
       <ThemedView style={styles.titleContainer}>
@@ -43,41 +42,21 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <Link href="/modal">
-          <Link.Trigger>
-            <ThemedText type="subtitle">Experience Summary:</ThemedText>
-          </Link.Trigger>
-          <Link.Preview />
-          <Link.Menu>
-            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
-            <Link.MenuAction
-              title="Share"
-              icon="square.and.arrow.up"
-              onPress={() => alert('Share pressed')}
-            />
-            <Link.Menu title="More" icon="ellipsis">
-              <Link.MenuAction
-                title="Delete"
-                icon="trash"
-                destructive
-                onPress={() => alert('Delete pressed')}
-              />
-            </Link.Menu>
-          </Link.Menu>
-        </Link>
-
+        <ThemedText type="subtitle">Experience Summary:</ThemedText>
         <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
+          I have worked at Nothing Bundt Cakes, Beaumont Scout Reservation, and even contributed to some programs here at
+          CWRU. I have worked as a sustainability consultant for the Fowler Center's Business for world benefit program
+          and I have developed programs for my own personal projects and for clubs at CWRU. I have experience coding
+          in many languages including Java, Javascript, Python, html, css, and more. I am good at working with teams
+          on projects and developing software.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Projects Summary:</ThemedText>
         <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          I have worked on many projects both for school and for fun. Some of these include a scavenger hunt website,
+          a couple browser extensions, and some basic homework assignments. Most of the projects I have completed
+          are displayed on the projects page.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -94,7 +73,7 @@ const styles = StyleSheet.create({
     gap: 8,
     marginBottom: 8,
   },
-  reactLogo: {
+  banner: {
     height: 400,
     width: 2000,
     bottom: 0,
