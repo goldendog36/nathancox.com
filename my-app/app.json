@@ -22,7 +22,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "baseUrl": "https://goldendog36.github.io",
+      "baseUrl": "dist/",
       "output": "static",
       "favicon": "@/assets/images/favicon.png"
     },
