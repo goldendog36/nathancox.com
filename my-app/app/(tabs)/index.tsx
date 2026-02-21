@@ -11,7 +11,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#a02659', dark: '#4712a8' }}
       headerImage={
         <Image
-          source={require('goldendog36.github.io/assets/images/purple-banner.png')}
+          source={require('@/assets/images/purple-banner.png')}
           style={styles.banner}
         />
       }>
