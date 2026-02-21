@@ -22,7 +22,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "baseUrl": "dist/",
+      "baseUrl": "/nathancox.com/",
       "output": "static",
       "favicon": "@/assets/images/favicon.png"
     },
