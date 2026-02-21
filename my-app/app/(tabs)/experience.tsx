@@ -12,7 +12,7 @@ export default function TabThreeScreen() {
       headerBackgroundColor={{ light: '#a02659', dark: '#4712a8' }}
       headerImage={
         <Image
-          source={require('@/assets/images/purple-banner.png')}
+          source={require('../../assets/images/purple-banner.png')}
           style={styles.banner}
         />
       }>
