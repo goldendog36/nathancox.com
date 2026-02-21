@@ -22,7 +22,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "baseUrl": "goldendog36.github.io/nathancox.com",
+      "baseUrl": "goldendog36.github.io",
       "output": "static",
       "favicon": "@/assets/images/favicon.png"
     },
