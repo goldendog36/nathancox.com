@@ -1,10 +1,10 @@
 import { Image } from 'expo-image';
 import { StyleSheet } from 'react-native';
 
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { Fonts } from '@/constants/theme';
+import ParallaxScrollView from '../../components/parallax-scroll-view';
+import { ThemedText } from '../../components/themed-text';
+import { ThemedView } from '../../components/themed-view';
+import { Fonts } from '../../constants/theme';
 
 export default function TabFourScreen() {
   return (
