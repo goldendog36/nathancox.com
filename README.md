@@ -1,10 +1,9 @@
 # Nathan Cox - Portfolio Website
 
-This is a static HTML, CSS, and JavaScript website for Nathan Cox's portfolio.
-
 ## View the Site
 
-The site is deployed at: https://goldendog36.github.io/nathancox.com
+The site is deployed at: https://nathangeorgecox.com
+And should also be available at: https://goldendog36.github.io/nathancox.com
 
 ## Local Development
 
