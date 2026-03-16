@@ -1,0 +1,110 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #151718;
+    color: #ECEDEE;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #151718;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    color: #687076;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.tab-button.active {
+    color: #0a7ea4;
+}
+
+.tab-button:hover {
+    color: #0a7ea4;
+}
+
+main {
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.banner {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Dark mode is default, light mode if needed */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    header {
+        background-color: #ffffff;
+    }
+    .tab-button {
+        color: #687076;
+    }
+    .tab-button.active {
+        color: #0a7ea4;
+    }
+}
