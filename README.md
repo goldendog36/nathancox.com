@@ -3,12 +3,11 @@
 ## View the Site
 
 The site is deployed at: https://nathangeorgecox.com
-And should also be available at: https://goldendog36.github.io/nathancox.com
 
 ## Local Development
 
 To run locally:
-htt
+
 1. Start a simple HTTP server:
 
    ```bash
